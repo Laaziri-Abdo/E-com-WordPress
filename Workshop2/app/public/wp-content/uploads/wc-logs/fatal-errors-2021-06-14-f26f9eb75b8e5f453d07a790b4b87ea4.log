@@ -1,0 +1,1445 @@
+2021-06-14T08:18:39+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_process...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(7, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:19:49+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(13, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:21:02+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(15, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:23:09+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(16, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:24:59+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(17, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:25:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(18, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:26:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(19, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:26:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(20, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:27:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(21, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:28:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(22, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:34:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(23, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:35:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(24, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:42:09+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(25, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:48:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(27, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:49:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(28, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:50:03+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(29, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:53:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(30, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T08:54:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(31, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T09:12:14+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(32, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T09:13:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(33, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T09:13:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(34, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T09:14:25+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(35, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T09:15:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(36, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T09:17:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(37, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T09:19:12+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(39, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T09:19:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(40, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T09:20:12+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(41, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T09:21:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(42, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T09:22:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(43, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:05:14+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(44, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:05:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(45, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:06:07+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(46, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:08:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(47, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:09:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(48, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:10:25+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(49, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:11:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(50, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:12:08+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(51, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:12:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(52, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:13:16+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(53, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:15:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(54, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:16:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(55, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:28:38+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(56, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:28:47+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(57, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:30:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(58, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:31:08+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(59, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:32:12+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(60, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:32:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(61, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:33:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(62, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:40:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(63, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:41:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(64, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:42:45+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(65, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:46:20+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(66, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:47:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(67, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:48:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(68, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:49:49+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(69, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:50:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(70, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:52:01+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(71, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:53:39+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(72, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:55:25+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(73, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:56:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(74, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:57:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(75, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T10:59:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(76, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:37:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(77, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:37:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(78, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:39:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(79, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:42:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(80, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:50:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(81, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:50:43+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(82, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:51:38+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(83, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:53:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(84, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:54:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(85, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:55:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(86, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:56:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(87, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:57:51+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(88, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:58:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(89, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:59:03+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(90, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T12:59:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(91, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T13:01:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(92, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T13:09:01+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(93, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T13:10:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(94, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T13:25:12+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(95, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T13:25:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(96, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T13:26:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(97, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T13:50:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(98, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T14:05:46+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(99, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T14:06:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(100, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T14:07:14+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(101, 'Async Request')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\Users\Youcode\Local Sites\ecom\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
+2021-06-14T14:56:20+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(102, 'WP Cron')
+#5 C:\Users\Youcode\Local Sites\ecom\app\public\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\Users\Youcode\Local Sites\ecom\app\public\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\Users\Youcode\Local Sites\ecom\app\public\wp-includes\class-wp-hook.php on line 292
+
